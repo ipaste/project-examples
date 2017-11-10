@@ -67,4 +67,14 @@
             </plugin>
         </plugins>
     </build>
+    
+    
+    <distributionManagement>
+      <repository>
+        <id>central</id>
+        <name>qcloud.newplm.com-releases</name>
+        <url>http://111.230.35.129:8081/artifactory/libs-release-local</url>
+      </repository>
+    </distributionManagement>
+    
 </project>
